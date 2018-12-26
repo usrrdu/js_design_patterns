@@ -14,4 +14,5 @@ Practical uses:
 - caches
 - configuration settings
 
-### The singleton pattern should not be overused. They're often an indication that modules in a system are either tightly coupled or that logic is overly spread across multiple parts of a codebase. Singletons can be more difficult to test due to issues ranging from hidden dependencies,the difficulty in creating multiple instances, difficulty in stubbing dependencies and so on.
+**The singleton pattern should not be overused** 
+They're often an indication that modules in a system are either tightly coupled or that logic is overly spread across multiple parts of a codebase. Singletons can be more difficult to test due to issues ranging from hidden dependencies,the difficulty in creating multiple instances, difficulty in stubbing dependencies and so on.
